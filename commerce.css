@@ -1,0 +1,55 @@
+body 
+{
+position:relative;
+background-color:lime;
+color:black;
+}
+*{
+margin:0;
+padding:0;
+font-family:12px,
+box-sizing:border-box;
+}
+img{
+   height:500px;
+   width:700px;
+   length:520px;
+ 
+ text-align:center;
+ } 
+ div.rigth{
+ text-align:center;
+ }
+ header{
+ z-index:20;
+ justify-content:space-between;
+ height:50px;
+ display:flex;
+ align-items:center;
+ padding :0 0 10px;
+ margin: 50px;
+ box-shadow:0 0 8px black;
+ }
+ #produits{
+ display:flex;
+ align-items:center; justify-content:center;
+ flex-direction: colobum;
+ 
+ }
+ 
+ 
+ #aliments{
+ background-image:"logo1.jpeg";
+ }
+ 
+ .image{
+ margin:100 auto;
+ padding:0.8%;
+ height:300px;
+ width:350px;
+ }
+ image ul{ display:flex; flex-wrap:wrap; width:100%;}
+ image li{display:flex; flex-direction: colobum; align-items:center; margin:2%; transition:0.5%; height:300%;
+ Width: 28%;
+ }
+ 
